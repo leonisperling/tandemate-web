@@ -22,7 +22,7 @@ export default function Nav() {
       </nav>
 
       <a
-        href="#download"
+        href="#cta"
         className="text-sm font-semibold px-5 py-2 rounded-full bg-[#8FC93A] text-black hover:bg-[#a0df42] transition-colors"
       >
         Download

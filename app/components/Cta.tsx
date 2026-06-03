@@ -3,7 +3,7 @@ import DownloadButtons from "./DownloadButtons";
 
 export default function Cta() {
   return (
-    <section className="py-28 relative overflow-hidden">
+    <section id="cta" className="py-28 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[450px] rounded-full bg-[#8FC93A]/7 blur-[110px]" />
       </div>

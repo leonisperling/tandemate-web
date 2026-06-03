@@ -22,14 +22,18 @@ export default function DownloadButtons({ size = "sm", className = "" }: Downloa
   return (
     <div className={`flex flex-wrap gap-4 ${className}`}>
       <a
-        href="#"
+        href="https://apps.apple.com/de/app/tandemate/id6761124795?l=en-GB"
+        target="_blank"
+        rel="noopener noreferrer"
         className={`inline-flex items-center gap-3 ${padding} rounded-2xl bg-white text-black font-semibold text-sm hover:bg-gray-100 transition-colors`}
       >
         <AppleIcon size={iconSize} />
         {size === "lg" ? "Download on App Store" : "App Store"}
       </a>
       <a
-        href="#"
+        href="https://play.google.com/store/apps/details?id=com.tandem.mate&pcampaignid=web_share"
+        target="_blank"
+        rel="noopener noreferrer"
         className={`inline-flex items-center gap-3 ${padding} rounded-2xl bg-[#8FC93A] text-black font-semibold text-sm hover:bg-[#a0df42] transition-colors`}
       >
         <PlayIcon size={iconSize} />
