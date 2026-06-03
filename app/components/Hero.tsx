@@ -13,10 +13,6 @@ export default function Hero() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center py-24">
         {/* Copy */}
         <div>
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#8FC93A]/10 border border-[#8FC93A]/20 text-[#8FC93A] text-xs font-semibold mb-8 tracking-wide uppercase">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#8FC93A] animate-pulse" />
-            Free · Local · Real conversations
-          </div>
 
           <h1 className="text-5xl md:text-6xl xl:text-[4.5rem] font-bold leading-[1.06] tracking-tight text-white mb-6">
             <span className="text-[#8FC93A]">Local</span>{" "}
@@ -39,7 +35,7 @@ export default function Hero() {
 
         {/* Phone mockups */}
         <div className="relative hidden lg:flex justify-end items-end h-[650px]">
-          <div className="absolute left-0 bottom-0 w-[230px] animate-float z-10">
+          <div className="absolute left-0 top-0 w-57.5 animate-float z-10">
             <Image
               src="/screen-map-ios.png"
               alt="TandeMate map view"
@@ -49,7 +45,7 @@ export default function Hero() {
               priority
             />
           </div>
-          <div className="absolute right-4 bottom-10 w-[230px] animate-float-right z-20">
+          <div className="absolute right-4 top-16 w-57.5 animate-float-right z-20">
             <Image
               src="/screen-users-ios.png"
               alt="TandeMate users list"

@@ -102,7 +102,7 @@ export const SCREENSHOTS = [
   { src: "/screen-chat-ios.png", label: "Chat with locals" },
   { src: "/screen-profile-ios.png", label: "Engaging profiles" },
   { src: "/screen-map-detail.png", label: "Live map view" },
-  { src: "/screen-users-detail.png", label: "User list" },
-  { src: "/screen-chat-ios2.png", label: "Conversations" },
-  { src: "/screen-profile-ios2.png", label: "Your profile" },
+  { src: "/screen-users-detail.png", label: "Your profile" },
+  // { src: "/screen-chat-ios2.png", label: "Conversations" },
+  // { src: "/screen-profile-ios2.png", label: "Your profile" },
 ];
