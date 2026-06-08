@@ -34,7 +34,7 @@ export default function DownloadButtons({ size = "sm", className = "" }: Downloa
         href="https://play.google.com/store/apps/details?id=com.tandem.mate&pcampaignid=web_share"
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center gap-3 ${padding} rounded-2xl bg-[#8FC93A] text-black font-semibold text-sm hover:bg-[#a0df42] transition-colors`}
+        className={`inline-flex items-center gap-3 ${padding} rounded-2xl bg-primary text-primary-light font-semibold text-sm hover:bg-primary/80 transition-colors`}
       >
         <PlayIcon size={iconSize} />
         {size === "lg" ? "Get it on Google Play" : "Google Play"}

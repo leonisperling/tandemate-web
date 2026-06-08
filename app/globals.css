@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #8FC93A;
-  --primary-light: #A2FAA3;
-  --secondary: #1E91D6;
+  --primary: #A2FAA3;
+  --primary-light: #00210D;
+  --secondary: #247BA0;
   --background: #191716;
   --surface: #141318;
   --surface-high: #201F25;
@@ -12,10 +12,10 @@
 }
 
 @theme inline {
-  --color-primary: #8FC93A;
-  --color-primary-light: #A2FAA3;
-  --color-secondary: #1E91D6;
-  --color-bg-dark: #191716;
+  --color-primary: #A2FAA3;
+  --color-primary-light: #00210D;
+  --color-secondary: #247BA0;
+  --color-background: #191716;
   --color-surface: #141318;
   --color-surface-high: #201F25;
   --color-text-main: #F0DFD8;
@@ -32,20 +32,20 @@ html {
 }
 
 body {
-  background-color: #191716;
-  color: #F0DFD8;
+  background-color: var(--background);
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #8FC93A 0%, #1E91D6 100%);
+  background: linear-gradient(135deg, #A2FAA3 0%, #247BA0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .hero-glow {
-  background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(143, 201, 58, 0.12) 0%, transparent 70%);
+  background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(162, 250, 163, 0.12) 0%, transparent 70%);
 }
 
 .feature-card {
@@ -55,19 +55,33 @@ body {
 }
 
 .feature-card:hover {
-  border-color: rgba(143, 201, 58, 0.35);
+  border-color: rgba(162, 250, 163, 0.35);
   transform: translateY(-4px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-14px) rotate(0.5deg); }
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-14px) rotate(0.5deg);
+  }
 }
 
 @keyframes float-right {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-10px) rotate(-0.5deg); }
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(-0.5deg);
+  }
 }
 
 .animate-float {
@@ -79,5 +93,5 @@ body {
 }
 
 .phone-shadow {
-  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 1px rgba(255,255,255,0.05));
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.7)) drop-shadow(0 0 1px rgba(255, 255, 255, 0.05));
 }

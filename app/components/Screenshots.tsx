@@ -6,10 +6,10 @@ export default function Screenshots() {
     <section id="screenshots" className="py-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12 mb-14 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          See it in <span className="text-[#8FC93A]">action</span>
+          See it in <span className="text-primary">action</span>
         </h2>
-        <p className="text-[#928F99] text-lg max-w-xl mx-auto">
-          Clean design, dark interface, real people — here&rsquo;s what TandeMate looks like every day.
+        <p className="text-text-muted text-lg max-w-xl mx-auto">
+          Clean design, dark interface, real people - here&rsquo;s what TandeMate looks like every day.
         </p>
       </div>
 
@@ -18,8 +18,8 @@ export default function Screenshots() {
         style={{ scrollbarWidth: "none" }}
       >
         {SCREENSHOTS.map((s) => (
-          <div key={s.src} className="flex-shrink-0 snap-start flex flex-col items-center gap-3">
-            <div className="w-[190px] md:w-[210px] rounded-[22px] overflow-hidden bg-[#141318] border border-white/5 shadow-2xl">
+          <div key={s.src} className="shrink-0 snap-start flex flex-col items-center gap-3">
+            <div className="w-[190px] md:w-[210px] rounded-[22px] overflow-hidden bg-surface border border-white/5 shadow-2xl">
               <Image
                 src={s.src}
                 alt={s.label}
@@ -28,7 +28,7 @@ export default function Screenshots() {
                 className="w-full h-auto"
               />
             </div>
-            <span className="text-xs text-[#928F99]">{s.label}</span>
+            <span className="text-xs text-text-muted">{s.label}</span>
           </div>
         ))}
       </div>

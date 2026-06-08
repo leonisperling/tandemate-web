@@ -6,8 +6,8 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center pt-16">
       {/* background glows */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] rounded-full bg-[#8FC93A]/8 blur-[140px]" />
-        <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-[#1E91D6]/6 blur-[120px]" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] rounded-full bg-primary/8 blur-[140px]" />
+        <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-secondary/6 blur-[120px]" />
       </div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center py-24">
@@ -15,7 +15,7 @@ export default function Hero() {
         <div>
 
           <h1 className="text-5xl md:text-6xl xl:text-[4.5rem] font-bold leading-[1.06] tracking-tight text-white mb-6">
-            <span className="text-[#8FC93A]">Local</span>{" "}
+            <span className="text-primary">Local</span>{" "}
             language
             <br />
             exchange
@@ -23,7 +23,7 @@ export default function Hero() {
             for free.
           </h1>
 
-          <p className="text-lg text-[#928F99] leading-relaxed max-w-md mb-10">
+          <p className="text-lg text-text-muted leading-relaxed max-w-md mb-10">
             Find language exchange partners right in your city. Discover people
             nearby on a map, match by language, and meet for real conversations.
           </p>
@@ -59,7 +59,7 @@ export default function Hero() {
       </div>
 
       {/* scroll hint */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#928F99] pointer-events-none">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-text-muted pointer-events-none">
         <span className="text-xs">Scroll to explore</span>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="animate-bounce" aria-hidden="true">
           <polyline points="6 9 12 15 18 9" />
