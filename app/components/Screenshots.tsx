@@ -14,7 +14,7 @@ export default function Screenshots() {
       </div>
 
       <div
-        className="flex gap-5 px-6 md:px-12 overflow-x-auto pb-4 snap-x snap-mandatory"
+        className="flex gap-5 px-6 md:px-12 overflow-x-auto pb-4 snap-x snap-mandatory lg:justify-center"
         style={{ scrollbarWidth: "none" }}
       >
         {SCREENSHOTS.map((s) => (
