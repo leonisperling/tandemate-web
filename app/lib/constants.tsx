@@ -27,7 +27,7 @@ export const FEATURES = [
     ),
     title: "Match by Language",
     description:
-      "Browse profiles filtered by native and learning languages. Each match is a two-way exchange — you teach, they teach.",
+      "Browse profiles filtered by native and learning languages. Each match is a two-way exchange - you teach, they teach.",
   },
   {
     icon: (
@@ -37,7 +37,7 @@ export const FEATURES = [
     ),
     title: "Chat Instantly",
     description:
-      "Send a message the moment you find someone interesting. No waiting for a match — just open a conversation.",
+      "Send a message the moment you find someone interesting. No waiting for a match - just open a conversation.",
   },
   {
     icon: (
@@ -61,7 +61,7 @@ export const FEATURES = [
     ),
     title: "Any Language",
     description:
-      "From German and Japanese to Tagalog and Greek — TandeMate supports every language pair you can imagine.",
+      "From German and Japanese to Tagalog and Greek - TandeMate supports every language pair you can imagine.",
   },
   {
     icon: (
@@ -71,7 +71,7 @@ export const FEATURES = [
     ),
     title: "Always Free",
     description:
-      "No subscriptions, no paywalls. TandeMate is free to download and free to use — because language learning should be for everyone.",
+      "No subscriptions, no paywalls. TandeMate is free to download and free to use - because language learning should be for everyone.",
   },
 ];
 
