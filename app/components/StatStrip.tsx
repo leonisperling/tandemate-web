@@ -1,6 +1,5 @@
 const STATS = [
-  { value: "60+", label: "Users in Salzburg" },
-  { value: "10+", label: "Languages supported" },
+  { value: "30+", label: "Languages supported" },
   { value: "iOS & Android", label: "Available on" },
   { value: "100%", label: "Free forever" },
 ];
