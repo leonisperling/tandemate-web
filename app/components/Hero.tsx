@@ -37,8 +37,8 @@ export default function Hero() {
         <div className="relative hidden lg:flex justify-end items-end h-[650px]">
           <div className="absolute left-0 top-0 w-57.5 animate-float z-10">
             <Image
-              src="/screen-map-ios.png"
-              alt="TandeMate map view"
+              src="/android-01.png"
+              alt="TandeMate chat view"
               width={230}
               height={490}
               className="phone-shadow w-full h-auto"
@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
           <div className="absolute right-4 top-16 w-57.5 animate-float-right z-20">
             <Image
-              src="/screen-users-ios.png"
+              src="/users.jpg"
               alt="TandeMate users list"
               width={230}
               height={490}

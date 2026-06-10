@@ -97,12 +97,10 @@ export const STEPS = [
 ];
 
 export const SCREENSHOTS = [
-  { src: "/screen-map-ios.png", label: "Discover nearby" },
-  { src: "/screen-users-ios.png", label: "Browse users" },
-  { src: "/screen-chat-ios.png", label: "Chat with locals" },
-  { src: "/screen-profile-ios.png", label: "Engaging profiles" },
-  { src: "/screen-map-detail.png", label: "Live map view" },
-  { src: "/screen-users-detail.png", label: "Your profile" },
-  // { src: "/screen-chat-ios2.png", label: "Conversations" },
-  // { src: "/screen-profile-ios2.png", label: "Your profile" },
+  { src: "/01.png", label: "Discover nearby" },
+  { src: "/02.png", label: "Engaging profiles" },
+  { src: "/03.png", label: "Chat with locals" },
+  { src: "/04.png", label: "Browse users" },
+  // { src: "/android-01.png", label: "Live map view" },
+  // { src: "/android-04.png", label: "Find your match" },
 ];

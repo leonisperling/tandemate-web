@@ -11,7 +11,7 @@ export default function HowItWorks() {
             <div className="relative">
               <div className="absolute inset-0 -m-12 bg-primary/6 rounded-full blur-3xl" />
               <Image
-                src="/screen-profile-ios2.png"
+                src="/android-04.png"
                 alt="TandeMate profile screen"
                 width={270}
                 height={570}
